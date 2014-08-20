@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:cc="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.compoundcontrols.MainActivity">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the compound control"/>
+
+    <com.example.compoundcontrols.DurationControl
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:orientation="vertical"
+        android:id="@+id/durationControlID" cc:durationUnits="weeks">
+
+        </com.example.compoundcontrols.DurationControl>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Scratch for Debug"/>
+
+</LinearLayout>
